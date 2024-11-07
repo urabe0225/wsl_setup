@@ -1,6 +1,6 @@
 # wsl_setup
 
-```windows
+```Windows
 wsl --install -d Ubuntu
 wsl --install -d Debian
 ```
