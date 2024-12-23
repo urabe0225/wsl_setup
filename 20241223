@@ -1,0 +1,28 @@
+# wsl_setup
+
+```Windows
+wsl --install -d Ubuntu-22.04
+```
+
+```Ubuntu
+sudo apt update && sudo apt upgrade -y
+```
+
+## NodeJS 23
+```Ubuntu
+sudo apt-get install -y curl
+curl -fsSL https://deb.nodesource.com/setup_23.x -o nodesource_setup.sh
+sudo -E bash nodesource_setup.sh
+sudo apt-get install -y nodejs
+```
+
+npx create-next-app@14.2.21 r3ftest --app --eslint --tailwind --turbopack --src-dir --import-alias "@/*" --ts
+cd r3ftest/
+npm i three @react-three/fiber
+npm i --save-dev @types/three
+
+```next.config.mjs
+const nextConfig = {
+    transpilePackages: ['three'],
+};
+```
