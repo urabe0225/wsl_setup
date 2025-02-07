@@ -20,6 +20,7 @@ npx create-next-app@14.2.21 r3ftest --app --eslint --tailwind --turbopack --src-
 cd r3ftest/
 npm i three @react-three/fiber
 npm i --save-dev @types/three
+npm i @types/three
 
 ```next.config.mjs
 const nextConfig = {
